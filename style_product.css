@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url('image/product_img.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+        }
+    button{
+        width: 100px;
+        padding: 10px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font: bold;
+        border: 2px solid #009688;
+        background: transparent;
+        counter-reset: #fff;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    .tele ul li a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .t_am {
+       position: absolute;
+       top: 20.6%;
+       left: 0;
+       padding-left: 5%;
+       transform: translate(-50%, -50%);
+       transition: 0.5s;
+    }
+    .t_am:hover{
+            padding-left: 13.4%;
+        
+    }
+
+
+    /* python */
+    .pyth ul li a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .py_am {
+       position: absolute;
+       top: 54.5%;
+       left: 0;
+       padding-left: 5%;
+       transform: translate(-50%, -50%);
+       transition: 0.5s;
+    }
+    .py_am:hover{
+            padding-left: 14%;
+        
+    }
